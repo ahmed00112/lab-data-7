@@ -1,0 +1,34 @@
+class q:
+    def __init__ (self):
+        self.q=list()
+    def ad(self,d):
+        if d not in self.q:
+            self.q.insert(0,d)
+            print("trut")
+        else:
+            print("fules")
+    def adl(self,d1):
+        p=len(self.q)
+        self.q.insert (p,d1)
+    def z(self):
+        print( len(self.q))
+    def sh(self):
+        return self.q
+    def dl(self):
+
+        self.q. pop()
+
+    def dll(self):
+        self.q. pop(0)
+q1=q()
+q1.ad("aa")
+q1.ad("ab")
+q1 .ad("av")
+q1 .ad("ad")
+q1.adl("al")
+q1.z()
+print (q1.sh())
+q1.dl()
+print(q1.sh())
+q1.dll()
+print(q1.sh())
